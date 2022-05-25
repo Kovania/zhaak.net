@@ -5,11 +5,11 @@
   <div class="home">
     <div class="flex">
       <div class="text">
-            <h1>Hey, I'm</h1>
-            <h1>Zhaak</h1>
-            <span>
+            <h1>Hey, I'm<br>
+            <span class="red">Zhaak</span></h1>
+            <p>
               Bonjour, je m'appelle Zhaak et je suis un graphiste français. J'ai plus de 3 ans d'expérience dans la conception graphique au sein de la communauté des jeux et de l'esport.
-            </span>
+            </p>
       </div>
       <div class="pigeon">
         <img src="../assets/pigeon.png">
@@ -37,5 +37,24 @@
     position: absolute;
     top: 0px;
     right: 0px;
+  }
+
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 57px;
+    line-height: 76px;
+    font-weight: 700;
+  }
+
+  h1 span {
+    font-weight: 700;
+  }
+
+  .red {
+    color: rgb(232,24,24);
+  }
+
+  p {
+    margin-top: 20px;
   }
 </style>

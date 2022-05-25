@@ -18,4 +18,17 @@
     max-width: 900px;
     margin: 0 auto;
   }
+
+  h3 {
+    color: rgb(235,25,25);
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 56px;
+    line-height: 76px;
+    font-weight: 700;
+  }
 </style>
