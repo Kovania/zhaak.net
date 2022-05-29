@@ -3,6 +3,7 @@
 </script>
 
 <template>
+    <div class="bgr"></div>
     <div class="flex">
         <div>
             <h3>TWITCH</h3>
@@ -17,6 +18,18 @@
     display: flex;
     max-width: 900px;
     margin: 0 auto;
+  }
+
+  .bgr {
+    background: #151518;
+    border-top-left-radius: 2.25rem;
+    border-bottom-left-radius: 2.25rem;
+    position: absolute;
+    left: 25%;
+    right: 0;
+    bottom: 0;
+    top: 15%;
+    height: 260px;
   }
 
   h3 {

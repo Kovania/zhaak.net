@@ -130,6 +130,7 @@
     height: 57px;
     width: 57px;
     border-radius: 100%;
-    background: red;
+    background: url(../assets/sagueule.png);
+    background-size: cover;
   }
 </style>
