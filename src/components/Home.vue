@@ -36,7 +36,8 @@
   .pigeon img {
     position: absolute;
     top: 0px;
-    right: 0px;
+    width: 200px;
+    right: 130px;
   }
 
   h1 {

@@ -11,19 +11,19 @@ import Contact from "./components/Contact.vue"
   <Header/>
   <main>
     <full-page ref="fullpage" :options="options" id="fullpage">
-      <div class="section">
+      <div class="section" data-anchor="home">
         <Home />
       </div>
-      <div class="section">
+      <div class="section" data-anchor="about">
         <About />
       </div>
-      <div class="section">
+      <div class="section" data-anchor="portfolio">
         <Portfolio />
       </div>
-      <div class="section">
+      <div class="section" data-anchor="twitch">
         <Twitch />
       </div>
-      <div class="section">
+      <div class="section" data-anchor="contact">
         <Contact />
       </div>
     </full-page>
@@ -46,7 +46,7 @@ import Contact from "./components/Contact.vue"
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: white;
   transition: 0.4s;
 }
 
@@ -54,9 +54,4 @@ a,
   overflow: hidden;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
 </style>
