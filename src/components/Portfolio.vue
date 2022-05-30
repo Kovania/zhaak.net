@@ -15,11 +15,11 @@
             </div>
 
             <div class="fleximage">
-              <div class="img" style="background: url(../public/hyperion_mockup.png) no-repeat center/cover;"></div>
+              <div class="img" style="background: url(../assets/hyperion_mockup.png) no-repeat center/cover;"></div>
               <div class="spacer"></div>
-              <div class="img" style="background: url(../public/100_THIEVES.png) no-repeat center/cover;"></div>
+              <div class="img" style="background: url(../assets/100_THIEVES.png) no-repeat center/cover;"></div>
               <div class="spacer"></div>
-              <div class="img" style="background: url(../public/fnatic_mockup.png) no-repeat center/cover;"></div>
+              <div class="img" style="background: url(../assets/fnatic_mockup.png) no-repeat center/cover;"></div>
             </div>
         </div>
     </div>
