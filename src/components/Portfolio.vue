@@ -15,17 +15,29 @@
             </div>
 
             <div class="fleximage">
-              <div class="img" style="background: url(../assets/hyperion_mockup.png) no-repeat center/cover;"></div>
+              <div class="img bgr1"></div>
               <div class="spacer"></div>
-              <div class="img" style="background: url(../assets/100_THIEVES.png) no-repeat center/cover;"></div>
+              <div class="img bgr2"></div>
               <div class="spacer"></div>
-              <div class="img" style="background: url(../assets/fnatic_mockup.png) no-repeat center/cover;"></div>
+              <div class="img bgr3"></div>
             </div>
         </div>
     </div>
 </template>
 
 <style scoped>
+
+  .bgr1 {
+    background: url(../assets/hyperion_mockup.png) no-repeat center/cover;
+  }
+
+  .bgr2 {
+    background: url(../assets/100_THIEVES.png) no-repeat center/cover;
+  }
+
+  .bgr3 {
+    background: url(../assets/fnatic_mockup.png) no-repeat center/cover;
+  }
 
   .fleximage {
     display: flex;
