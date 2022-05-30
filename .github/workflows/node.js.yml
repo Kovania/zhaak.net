@@ -22,6 +22,9 @@ jobs:
 
       - name: Build
         run: npm run build
+        
+      - name: CNAME
+        run: cd dist && echo 'zhaak.net' > CNAME
     
       - name: Push
         uses: s0/git-publish-subdir-action@develop
