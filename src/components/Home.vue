@@ -58,4 +58,17 @@
   p {
     margin-top: 20px;
   }
+
+  @media only screen and (max-width: 900px) {
+    .flex {
+          margin: 30px;
+    }
+    .pigeon {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 690px) {
+
+  }
 </style>

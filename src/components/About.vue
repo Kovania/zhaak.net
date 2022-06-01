@@ -133,4 +133,18 @@
     background: url(../assets/sagueule.png);
     background-size: cover;
   }
+
+  @media only screen and (max-width: 920px) {
+    .flex {
+      margin: 30px;
+      display: initial;
+    }
+    h1 {
+      font-size: 35px;
+      line-height: 48px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
 </style>

@@ -93,4 +93,18 @@ h3 {
   height: 64px;
   z-index: 9999;
 }
+
+@media only screen and (max-width: 690px) {
+  .button,
+  .spacer {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+    display: none;
+  }
+}
+
 </style>
