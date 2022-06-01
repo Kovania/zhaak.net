@@ -8,7 +8,9 @@ import Contact from "./components/Contact.vue"
 </script>
 
 <template>
-  <Header/>
+  <hh>
+    <Header/>
+  </hh>
   <main>
     <full-page ref="fullpage" :options="options" id="fullpage">
       <div class="section" data-anchor="home">
@@ -54,4 +56,9 @@ a,
   overflow: hidden;
 }
 
+@media only screen and (max-width: 500px) {
+  hh {
+    display: none;
+  }
+}
 </style>

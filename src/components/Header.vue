@@ -101,10 +101,4 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .header {
-    display: none;
-  }
-}
-
 </style>

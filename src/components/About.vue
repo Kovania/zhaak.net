@@ -144,9 +144,13 @@
       font-size: 35px;
       line-height: 48px;
     }
-    
+
     p {
       font-size: 14px;
+    }
+
+    .author {
+      display: none;
     }
   }
 </style>
