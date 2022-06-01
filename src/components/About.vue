@@ -139,10 +139,12 @@
       margin: 30px;
       display: initial;
     }
+
     h1 {
       font-size: 35px;
       line-height: 48px;
     }
+    
     p {
       font-size: 14px;
     }
